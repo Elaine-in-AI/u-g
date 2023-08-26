@@ -1,0 +1,233 @@
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #210B2C;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.header-nav li {
+    list-style: none;
+}
+
+.header-nav li a {
+    color: #210B2C; 
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    margin-right: 20px; 
+}
+
+.nav-item a {
+    white-space: nowrap;
+}
+
+.nav-item button a {
+    white-space: nowrap;
+}
+
+.nav-item button {
+    margin-right: 20px!important;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.navbar-Nav {
+    flex-wrap: nowrap;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+}
+
+#about-container, #what-container, #how-container, #howto-container {
+    text-align: justify;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 12%;
+    padding-bottom: 5%;
+}
+
+.col-md-6 {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flexbox;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.about-text {
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+#feature-container {
+    text-align: justify;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+}  
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin-left: 40%; */
+    border: #B2E6D4;
+    border-radius: 8px;
+    padding: 15px;
+    display: block;
+}
+
+button:hover {
+    background-color: #2E294E;
+    color: #FEEA00;
+}
+
+.nav-item button a:hover {
+    color: #FEEA00;
+}
+.nav-item button {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.profile-image {
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+#what-container {
+    background-color: #FEEA00;   
+}
+
+#how-container {
+    background-color: black;
+}
+
+#how-container h1 {
+    color: #E8E9EB;
+}
+
+#how-container p {
+    color: #E8E9EB;
+}
+
+#howto-container {
+    background-color: #00635D;
+}
+
+.row-feature .feature-content {
+    padding: 20px;
+}
+
+#feature-container h1 {
+    color: #ccc;
+}
+    
+
+.feature-content h2 {
+    color: #ccc;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.feature-content p {
+    color: #ccc;
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#advantage-container {
+    margin-bottom: 7%;
+    background-color: #FEEA00; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.advantage-row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#advantage-container h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.advantage-text p {
+    text-align: center;
+}
+
+.footer button {
+    margin-top: 5px!important;
+    margin-bottom: 30px;
+    margin-left: 5px!important;
+    border: #B2E6D4;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.input-email {
+    width: 250px;  
+    height: 45px;  
+    padding: 5px; 
+    font-size: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+#footer-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+h3 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #210B2C;
+    text-decoration: none;
+}
