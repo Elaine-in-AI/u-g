@@ -12,12 +12,14 @@ body {
     background-color: #210B2C;
 }
 
+
 .header-nav ul {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 2%;
+    justify-content: space-around;
+    padding-right: 30px;
 }
 
 .header-nav li {
@@ -178,7 +180,7 @@ h2 {
 }
 
 #advantage-container {
-    margin-bottom: 7%;
+    margin-bottom: 3%;
     background-color: #FEEA00; 
     padding-top: 5%;
     padding-bottom: 5%;
@@ -219,6 +221,20 @@ h2 {
 #footer-container {
     padding-top: 4%;
     padding-bottom: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.subscribe-section {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding-bottom: 13px;
 }
 
 h3 {
@@ -231,3 +247,13 @@ footer a {
     color: #210B2C;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    #footer-container {
+        /* height: 100vh;  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+}
+
